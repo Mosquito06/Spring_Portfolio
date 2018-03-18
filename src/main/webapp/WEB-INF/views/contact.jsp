@@ -47,7 +47,7 @@ $(function(){
 	}
 
 	.contentBottom img{
-		width: 20%;
+		width: 30% !important;
 	}
 	
 	div.contentBottom span#boldText{
@@ -63,6 +63,10 @@ $(function(){
 		.contentTop img{
 			width: 100% !important;
 		}
+		
+		.contentBottom img{
+			width: 40% !important;
+		}
 	}
 	
 	@media screen and (min-width: 768px) and (max-width: 1024px){ 
@@ -75,7 +79,7 @@ $(function(){
 		}
 		
 		.contentBottom img{
-			width: 40%;
+			width: 40% !important;
 		}
 	}
 </style>
