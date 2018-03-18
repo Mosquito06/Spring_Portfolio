@@ -225,6 +225,7 @@ div.contentBottom ul.list-group{
 
 div.contentBottom img{
 	margin-bottom: 2%;
+	width: 10%;
 }
 
 div.contentBottom span#boldText{
@@ -237,6 +238,8 @@ div.contentBottom span#boldText{
 div.contentBottom div#text{
 	text-align: left;	
 }
+
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES

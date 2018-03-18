@@ -47,7 +47,7 @@ $(function(){
 	}
 
 	.contentBottom img{
-		width: 10%;
+		width: 20%;
 	}
 	
 	div.contentBottom span#boldText{
@@ -72,6 +72,10 @@ $(function(){
 		
 		.contentTop img{
 			width: 60% !important;
+		}
+		
+		.contentBottom img{
+			width: 40%;
 		}
 	}
 </style>
@@ -133,7 +137,7 @@ $(function(){
 			<img src="${pageContext.request.contextPath}/resources/images/contact/card.png">
 		</div>
 		<div class="contentBottom">
-			<img src="${pageContext.request.contextPath}/resources/images/alert/alertIcon2.png"><br>
+			<img src="${pageContext.request.contextPath}/resources/images/contact/tea.png"><br>
 		  	<span id="boldText">
 		  		THANK YOU FOR YOUR ATTENTION
 		  	</span>

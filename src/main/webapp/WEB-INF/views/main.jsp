@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css?a=ddd">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css?a=zd">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -97,7 +97,7 @@ $(function(){
 			<img src="${pageContext.request.contextPath}/resources/images/main/contentTopImg.jpg">
 		</div>
 		<div class="contentBottom">
-			<img src="${pageContext.request.contextPath}/resources/images/main/bottomIcon.png"><br>
+			<img src="${pageContext.request.contextPath}/resources/images/main/bottomMac.png"><br>
 		  	<span id="boldText">열정과 실력을 겸비한 개발자</span>
 		  	<div id="text">늦깍이 개발자 지망생이지만, 늦은 만큼 개발에 대한 열정이 넘칩니다.
 		  	지난 10개월 동안 하루 10시간 이상씩 공부에 매진하며 개발자에 필요한 역량을 쌓았고, 이를 통해 실무에 바로 적용할 수 있는 스킬과 지식을 보유하고 있습니다.
