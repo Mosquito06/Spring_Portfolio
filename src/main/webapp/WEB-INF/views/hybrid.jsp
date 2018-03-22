@@ -73,6 +73,11 @@ $(function(){
 		font-weight: bold;
 	}
 	
+	#rinkUl a{
+		background-color: white !important;
+		padding-left: 0 !important;
+	}
+	
 	.contentBottom{
 		width: 100% !important;
 	}
@@ -238,7 +243,14 @@ $(function(){
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
 			  <li class="list-group-item">
-			  	<a href="${pageContext.request.contextPath }/download?filename=BusProject.apk">BusProject.apk</a>
+			  	<ul class="list-group" id="rinkUl">
+			  		<li class="list-group-item">
+			  			<a href="${pageContext.request.contextPath }/download?filename=BusProject.apk">BusProject.apk</a>
+			  		</li>
+			  		<li class="list-group-item">
+			  			<a href="https://github.com/Mosquito06/BusProject.git" target="blank">Github</a>
+			  		</li>
+			  	</ul>
 			  </li>
 			</ul>
 		</div>

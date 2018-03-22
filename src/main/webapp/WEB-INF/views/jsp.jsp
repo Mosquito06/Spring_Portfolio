@@ -77,6 +77,11 @@ $(function(){
 		width: 100% !important;
 	}
 	
+	#rinkUl a{
+		background-color: white !important;
+		padding-left: 0 !important;
+	}
+	
 	
 /* ---------------------------------------------------
    MEDIAQUERIES
@@ -243,7 +248,14 @@ $(function(){
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
 			  <li class="list-group-item">
-			  	<a href="http://skykim10908.cafe24.com/Project_JSP/" target="blank">SHILLA HOTEL DAEGU</a>
+			  	<ul class="list-group" id="rinkUl">
+			  		<li class="list-group-item">
+			  			<a href="http://skykim10908.cafe24.com/Project_JSP/" target="blank">SHILLA HOTEL DAEGU</a>
+			  		</li>
+			  		<li class="list-group-item">
+			  			<a href="https://github.com/Mosquito06/Project_JSP.git" target="blank">Github</a>
+			  		</li>
+			  	</ul>
 			  </li>
 			  <li class="list-group-item color">주의 사항</li>
 			  <li class="list-group-item">

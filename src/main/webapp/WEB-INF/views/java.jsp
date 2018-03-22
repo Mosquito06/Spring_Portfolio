@@ -82,6 +82,11 @@ $(function(){
 		width: 100% !important;
 	}
 	
+	#rinkUl a{
+		background-color: white !important;
+		padding-left: 0 !important;
+	}
+	
 	
 /* ---------------------------------------------------
    MEDIAQUERIES
@@ -216,7 +221,14 @@ $(function(){
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
 			  <li class="list-group-item">
-			  	<a href="${pageContext.request.contextPath }/download?filename=Coffee.zip">Coffee.zip</a>
+			  	<ul class="list-group" id="rinkUl">
+			  		<li class="list-group-item">
+			  			<a href="${pageContext.request.contextPath }/download?filename=Coffee.zip">Coffee.zip</a>
+			  		</li>
+			  		<li class="list-group-item">
+			  			<a href="https://github.com/Mosquito06/Coffee_Project.git" target="blank">Github</a>
+			  		</li>
+			  	</ul>
 			  </li>
 			  <li class="list-group-item color">주의 사항</li>
 			  <li class="list-group-item">
@@ -319,7 +331,14 @@ $(function(){
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
 			  <li class="list-group-item">
-			  	<a href="${pageContext.request.contextPath }/download?filename=RentCar.zip">RentCar.zip</a>
+			  	<ul class="list-group" id="rinkUl">
+			  		<li class="list-group-item">
+			  			<a href="${pageContext.request.contextPath }/download?filename=RentCar.zip">RentCar.zip</a>
+			  		</li>
+			  		<li class="list-group-item">
+			  			<a href="https://github.com/Mosquito06/RentCar_Project.git" target="blank">Github</a>
+			  		</li>
+			  	</ul>
 			  </li>
 			  <li class="list-group-item color">주의 사항</li>
 			  <li class="list-group-item">
