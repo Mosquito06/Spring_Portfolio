@@ -207,7 +207,7 @@ $(function(){
 			  <li class="list-group-item">프로젝트 명: EasyBuy</li>
 			  <li class="list-group-item color">프로젝트 설명</li>
 			  <li class="list-group-item">
-			  	현재 스프링 프로젝트(개인)를 진행 중입니다. 진행 중인 프로젝트는 Git 주소를 통해 확인하실 수 있습니다.
+			  	현재 스프링 프로젝트를 진행 중입니다. 진행 중인 프로젝트는 Git 주소를 통해 확인하실 수 있습니다.
 		  		농수산물 판매자와 구매자가 직거래를 할 수 있는 사이트를 구축 중이며, 반응형으로 제작 중입니다.
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
