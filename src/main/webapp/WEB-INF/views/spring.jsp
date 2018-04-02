@@ -96,6 +96,10 @@ $(function(){
 	#boldText{
 		font-size: 1.7rem !important;
 	}
+	
+	.contentBottom > img{
+		width: 10% !important; 
+	}
 }
 </style>
 </head>
