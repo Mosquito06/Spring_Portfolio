@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css?a=ddd">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/main.css?a=d">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -39,15 +39,64 @@ $(function(){
 })
 </script>
 <style>
-	.contentBottom img{
-		width: 10%;
+	#myCarousel{
+		width: 50vw !important;
+		margin: 2% auto 2% !important;
 	}
 	
-	@media screen and (max-width: 428px) { 
-		#boldText{
-			font-size: 1.7rem !important;
-		}
+	#exUl{
+		width: 80vw !important;
+		margin: 0 auto !important;
 	}
+	
+	#exUl li{
+		text-align: left !important;
+	} 
+	
+	#exUl li.color{
+		color: white;
+		background-color: #fc913a;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+	
+	#exUl li a:hover{
+		color: #fc913a;
+		font-weight: bold;
+	}
+	
+	#rinkUl a{
+		background-color: white !important;
+		padding-left: 0 !important;
+	}
+	
+	.contentBottom{
+		width: 100% !important;
+	}
+	
+	
+	.contentBottom > img{
+		width: 5% !important; 
+	}
+	
+/* ---------------------------------------------------
+   MEDIAQUERIES
+----------------------------------------------------- */
+@media screen and (max-width: 428px) { 
+	#myCarousel{
+		width: 100% !important;
+	}
+	
+	#exUl{
+		width: 100% !important;
+		margin: 0 auto !important;
+	
+	}
+	
+	#boldText{
+		font-size: 1.7rem !important;
+	}
+}
 </style>
 </head>
 <body>
@@ -102,25 +151,70 @@ $(function(){
              </div>
         </nav>
         
-        
-        <div class="contentTop">
-			<img src="${pageContext.request.contextPath}/resources/images/alert/alertIcon.png">
+         <div class="contentTop">
+        	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			  </ol>
+			
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/0.jpg">
+			    </div>
+			
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/1.jpg">
+			    </div>
+			
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/2.jpg">
+			    </div>  
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/3.jpg">
+			    </div>   
+			  </div>
+			
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+			
 		</div>
+        
+        
 		<div class="contentBottom">
 			<img src="${pageContext.request.contextPath}/resources/images/alert/alertIcon2.png"><br>
-		  	<span id="boldText">스프링 프로젝트는 추가 예정입니다.</span>
-		  	<div id="text">
-		  		현재 스프링 프로젝트(개인)를 진행 중이며, 추후에 추가 예정입니다. 
-		  		포트폴리오로 보여드릴 수는 없지만, 스프링의 기본 패키지(controller, domain, persistence, service)를 
-		  		기반으로 제작 중이며, 아래의 기능을 포함하여 구현할 예정입니다.
-		  	
-				<ul class="list-group">
-				  <li class="list-group-item">게시판 기능(CRUD)</li>
-				  <li class="list-group-item">REST 방식의 댓글 기능</li>
-				  <li class="list-group-item">AOP, 트랜잭션</li>
-				  <li class="list-group-item">파일 업로드 및 다운로드</li>
-				</ul>
-		  	</div>
+		  	<span id="boldText">스프링 프로젝트는 진행 중입니다.</span>
+		  	<ul class="list-group" id="exUl">
+			  <li class="list-group-item color">프로젝트 개요</li>
+			  <li class="list-group-item">SPRING 프로젝트(개인 프로젝트)</li>
+			  <li class="list-group-item">프로젝트 명: EasyBuy</li>
+			  <li class="list-group-item color">프로젝트 설명</li>
+			  <li class="list-group-item">
+			  	현재 스프링 프로젝트(개인)를 진행 중입니다. 진행 중인 프로젝트는 Git 주소를 통해 확인하실 수 있습니다.
+		  		농수산물 판매자와 구매자가 직거래를 할 수 있는 사이트를 구축 중이며, 반응형으로 제작 중입니다.
+			  </li>
+			  <li class="list-group-item color">관련 링크</li>
+			  <li class="list-group-item">
+			  	<ul class="list-group" id="rinkUl">
+			  		<li class="list-group-item">
+			  			<a href="https://github.com/Mosquito06/SA_Project" target="blank">Github</a>
+			  		</li>
+			  	</ul>
+		  	   </li>
+			</ul>
 		</div>
 
        </div>
