@@ -190,6 +190,10 @@ $(function(){
 			    <li data-target="#myCarousel" data-slide-to="1"></li>
 			    <li data-target="#myCarousel" data-slide-to="2"></li>
 			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			    <li data-target="#myCarousel" data-slide-to="4"></li>
+			    <li data-target="#myCarousel" data-slide-to="5"></li>
+			    <li data-target="#myCarousel" data-slide-to="6"></li>
+			    <li data-target="#myCarousel" data-slide-to="7"></li>
 			  </ol>
 			
 			  <!-- Wrapper for slides -->
@@ -208,7 +212,23 @@ $(function(){
 			    
 			    <div class="item">
 			      <img src="${pageContext.request.contextPath}/resources/images/spring/3.jpg">
-			    </div>   
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/4.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/5.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/6.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/7.jpg">
+			    </div>
 			  </div>
 			
 			  <!-- Left and right controls -->
