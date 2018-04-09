@@ -32,9 +32,9 @@ $(function(){
         $('a[aria-expanded=true]').attr('aria-expanded', 'false');
     });
 	
-    $("#contentNav").click(function(){
+    /* $("#contentNav").click(function(){
     	return false;
-    })
+    }) */
     
 })
 </script>
@@ -96,7 +96,34 @@ $(function(){
 
            		 <div class="collapse navbar-collapse" id="contentNav">
                        <ul class="nav navbar-nav navbar-right">
-                       	   <li><a href="#">현재 페이지는 Spring Framework와 BootStrap을 이용해 제작한 반응형 홈페이지 입니다.</a></li>
+                       	   <!-- <li><a href="#">현재 페이지는 Spring Framework와 BootStrap을 이용해 제작한 반응형 홈페이지 입니다.</a></li> -->
+                       	   <li>
+								<a href="page?page=main">HOME</a>
+					        </li>
+					        <li>
+					            <a href="page?page=jsp">JSP</a>
+					        </li>
+					        <li>
+					            <a href="page?page=java">JAVA</a>
+					        </li>
+					        <li>
+					            <a href="page?page=hybrid">HYBRID</a>
+					        </li>
+					        <li>
+					            <a href="page?page=spring">SPRING</a>
+					        </li>
+					        <li>
+					            <a href="page?page=android">ANDROID</a>
+					        </li>
+					        <li>
+					            <a href="page?page=html">HTML & CSS</a>
+					        </li>
+					        <li>
+					            <a href="page?page=jquery">JavaScript & JQuery</a>
+					        </li>
+					        <li>
+					            <a href="page?page=contact">CONTACT ME</a>
+					        </li>
                        </ul>
                   </div>
              </div>
