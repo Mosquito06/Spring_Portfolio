@@ -194,6 +194,10 @@ $(function(){
 			    <li data-target="#myCarousel" data-slide-to="5"></li>
 			    <li data-target="#myCarousel" data-slide-to="6"></li>
 			    <li data-target="#myCarousel" data-slide-to="7"></li>
+			    <li data-target="#myCarousel" data-slide-to="8"></li>
+			    <li data-target="#myCarousel" data-slide-to="9"></li>
+			    <li data-target="#myCarousel" data-slide-to="10"></li>
+			    <li data-target="#myCarousel" data-slide-to="11"></li>
 			  </ol>
 			
 			  <!-- Wrapper for slides -->
@@ -229,6 +233,22 @@ $(function(){
 			    <div class="item">
 			      <img src="${pageContext.request.contextPath}/resources/images/spring/7.jpg">
 			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/8.JPG">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/9.JPG">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/10.JPG">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/spring/11.JPG">
+			    </div> 
 			  </div>
 			
 			  <!-- Left and right controls -->
@@ -252,19 +272,34 @@ $(function(){
 			  <li class="list-group-item color">프로젝트 개요</li>
 			  <li class="list-group-item">SPRING 프로젝트(개인 프로젝트)</li>
 			  <li class="list-group-item">프로젝트 명: EasyBuy</li>
+			  <li class="list-group-item">작업 기간: 2018.04.01 ~ </li>
+			  <li class="list-group-item">개발 도구: Eclipse, MySQL, MyBatis, eXERD, Spring(version 4.3), Git</li>
+			  <li class="list-group-item">
+			  	담당 역할: DB, Class, Mapper 등의 설계, 회원가입, 로그인(Ajax), 게시판 구현(등록, 수정, 삭제, 페이징 처리), 
+			  	댓글 구현(등록, 수정, 삭제, 페이징 처리), Rest API 작성, 장바구니, 결제 등
+			  </li>
 			  <li class="list-group-item color">프로젝트 설명</li>
 			  <li class="list-group-item">
-			  	현재 스프링 프로젝트를 진행 중입니다. 진행 중인 프로젝트는 Git을 통해 확인하실 수 있습니다.
+			  	현재 스프링 프로젝트를 진행 중입니다. 진행 중인 프로젝트는 Git 및 아래 주소를 통해 확인하실 수 있습니다.
 		  		농수산물 판매자와 구매자가 직거래를 할 수 있는 사이트를 구축 중이며, 반응형으로 제작 중입니다.
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
 			  <li class="list-group-item">
 			  	<ul class="list-group" id="rinkUl">
 			  		<li class="list-group-item">
+			  			<a href="http://skykim10908.cafe24.com/SA_Project" target="blank">EasyBuy</a>
+			  		</li>
+			  		<li class="list-group-item">
 			  			<a href="https://github.com/Mosquito06/SA_Project" target="blank">Github</a>
 			  		</li>
 			  	</ul>
 		  	   </li>
+		  	   <li class="list-group-item color">주의 사항</li>
+			  <li class="list-group-item">
+			  	<dl>
+			  		<dt>다양한 테스트를 거치지 못해 예상치 못한 버그가 존재할 수 있습니다.</dt>
+			  	</dl> 
+			  </li>
 			</ul>
 		</div>
 
