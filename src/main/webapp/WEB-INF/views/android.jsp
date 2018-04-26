@@ -39,19 +39,80 @@ $(function(){
 })
 </script>
 <style>
-	.contentBottom img{
-		width: 10%;
+/* ---------------------------------------------------
+   CONTENT
+----------------------------------------------------- */
+	.contentTop{
+		font-family: 'Nanum Gothic', sans-serif;
+	}
+		
+	#myCarousel{
+		width: 50vw !important;
+		margin: 2% auto 2% !important;
+	}
+		
+	#exUl{
+		width: 80vw !important;
+		margin: 0 auto !important;
 	}
 	
-	@media screen and (max-width: 428px) { 
-		#boldText{
-			font-size: 1.7rem !important;
-		}
+	#exUl li{
+		text-align: left !important;
+	} 
+	
+	#exUl li.color{
+		color: white;
+		background-color: #fc913a;
+		font-weight: bold;
+		font-size: 1.5rem;
 	}
+	
+	#exUl li a:hover{
+		color: #fc913a;
+		font-weight: bold;
+	}
+	
+	#rinkUl a{
+		background-color: white !important;
+		padding-left: 0 !important;
+	}
+	
+	.contentBottom{
+		width: 100% !important;
+	}
+	
+	.contentBottom > img{
+		width: 5% !important; 
+	}
+	
+/* ---------------------------------------------------
+   MEDIAQUERIES
+----------------------------------------------------- */
+@media screen and (max-width: 428px) { 
+	#myCarousel{
+		width: 100% !important;
+	}
+	
+	#exUl{
+		width: 100% !important;
+		margin: 0 auto !important;
+	
+	}
+	
+	#boldText{
+		font-size: 1.7rem !important;
+	}
+	
+	.contentBottom > img{
+		width: 10% !important; 
+	}
+
+
+}
 </style>
 </head>
 <body>
- <div class="wrapper">
+<div class="wrapper">
    <nav id="sidebar"> 
 	   <ul class="list-unstyled components">
 	        <li>
@@ -83,8 +144,8 @@ $(function(){
 	        </li>
 	    </ul>
 	</nav>
-
-     <div id="content">
+	
+	<div id="content">
 
         <nav class="navbar navbar-default">
              <div class="container-fluid">
@@ -131,31 +192,92 @@ $(function(){
         
         
         <div class="contentTop">
-			<img src="${pageContext.request.contextPath}/resources/images/alert/alertIcon.png">
+        	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			    <li data-target="#myCarousel" data-slide-to="4"></li>
+			    <li data-target="#myCarousel" data-slide-to="5"></li>
+			    <li data-target="#myCarousel" data-slide-to="6"></li>
+			  </ol>
+			
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/0.jpg">
+			    </div>
+			
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/1.jpg">
+			    </div>
+			
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/2.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/3.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/4.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/5.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/6.jpg">
+			    </div>
+			  </div>
+			
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+			
 		</div>
 		<div class="contentBottom">
 			<img src="${pageContext.request.contextPath}/resources/images/alert/alertIcon2.png"><br>
-		  	<span id="boldText">안드로이드 프로젝트는 추가 예정입니다.</span>
-		  	<div id="text">
-		  		현재 안드로이드 프로젝트(개인)는 진행 중이며, 추후에 추가 예정입니다. 
-		  		포트폴리오로 보여드릴 수는 없지만, 스프링 프로젝트와 연동하여 Fragment를 기반으로 제작할 것이며, 
-		  		다음의 Android Framework 기능을 이용하여 구현할 예정입니다.
-		  	
-				<ul class="list-group">
-				  <li class="list-group-item">CustomView</li>
-				  <li class="list-group-item">CustomAdapter </li>
-				  <li class="list-group-item">다중 스레드 혹은 AsynkTask</li>
-				  <li class="list-group-item">SQLite 및 SharedPreferences</li>
-				  <li class="list-group-item">ETC..</li>
-				</ul>
-		  	</div>
+		  	<span id="boldText">안드로이드 프로젝트는 진행 중입니다.</span>
+			<ul class="list-group" id="exUl">
+			  <li class="list-group-item color">프로젝트 개요</li>
+			  <li class="list-group-item">ANDROID 프로젝트(개인 프로젝트)</li>
+			  <li class="list-group-item">프로젝트 명: EasyBuy</li>
+			  <li class="list-group-item">작업 기간: 2018.04.16 ~ </li>
+			  <li class="list-group-item">개발 도구: Eclipse, Android Studio, MySQL, MyBatis, eXERD Git</li>
+			  <li class="list-group-item">
+			  	담당 역할: UI 작업, Rest API 작성, JSON 파싱, RecyclerView 작업, 주문내역 확인, 통계 처리, Firebase 연동으로 실시간 알람 등
+			  </li>
+			  <li class="list-group-item color">프로젝트 설명</li>
+			  <li class="list-group-item">
+			  	  현재 안드로이드 프로젝트를 진행 중입니다. 진행 중인 프로젝트는 Git을 통해 확인하실 수 있습니다.
+		  		  스프링 프로젝트와 연동하여 농수산물 판매자가 활용할 수 있는 어플리케이션을 제작 중입니다.
+			  </li>
+			  <li class="list-group-item color">관련 링크</li>
+			  <li class="list-group-item">
+			  	<ul class="list-group" id="rinkUl">
+			  		<li class="list-group-item">
+			  			<a href="https://github.com/Mosquito06/EasyBuy.git" target="blank">Github</a>
+			  		</li>
+			  	</ul>
+			  </li>
+			</ul>
 		</div>
 
        </div>
 </div>
 
-
-
-        <div class="overlay"></div>
+<div class="overlay"></div>
 </body>
 </html>

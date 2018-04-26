@@ -305,9 +305,6 @@ $(function(){
 
        </div>
 </div>
-
-
-
-        <div class="overlay"></div>
+<div class="overlay"></div>
 </body>
 </html>
