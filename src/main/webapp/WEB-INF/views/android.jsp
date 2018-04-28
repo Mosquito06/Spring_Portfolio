@@ -202,36 +202,46 @@ $(function(){
 			    <li data-target="#myCarousel" data-slide-to="4"></li>
 			    <li data-target="#myCarousel" data-slide-to="5"></li>
 			    <li data-target="#myCarousel" data-slide-to="6"></li>
+			    <li data-target="#myCarousel" data-slide-to="7"></li>
+			    <li data-target="#myCarousel" data-slide-to="8"></li>
 			  </ol>
 			
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 			    <div class="item active">
-			      <img src="${pageContext.request.contextPath}/resources/images/android/0.jpg">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/00.jpg">
 			    </div>
 			
 			    <div class="item">
-			      <img src="${pageContext.request.contextPath}/resources/images/android/1.jpg">
-			    </div>
+			      <img src="${pageContext.request.contextPath}/resources/images/android/11.jpg">
+			    </div> 
 			
 			    <div class="item">
-			      <img src="${pageContext.request.contextPath}/resources/images/android/2.jpg">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/22.jpg"> 
 			    </div>
 			    
 			    <div class="item">
-			      <img src="${pageContext.request.contextPath}/resources/images/android/3.jpg">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/33.jpg"> 
 			    </div>
 			    
 			    <div class="item">
-			      <img src="${pageContext.request.contextPath}/resources/images/android/4.jpg">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/44.jpg">
 			    </div>
 			    
 			    <div class="item">
-			      <img src="${pageContext.request.contextPath}/resources/images/android/5.jpg">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/55.jpg">
 			    </div>
 			    
 			    <div class="item">
-			      <img src="${pageContext.request.contextPath}/resources/images/android/6.jpg">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/66.jpg">
+			    </div>
+			    
+			    <div class="item"> 
+			      <img src="${pageContext.request.contextPath}/resources/images/android/77.jpg">
+			    </div>
+			    
+			    <div class="item">
+			      <img src="${pageContext.request.contextPath}/resources/images/android/88.jpg">
 			    </div>
 			  </div>
 			
