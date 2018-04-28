@@ -265,7 +265,7 @@ $(function(){
 			  <li class="list-group-item">ANDROID 프로젝트(개인 프로젝트)</li>
 			  <li class="list-group-item">프로젝트 명: EasyBuy</li>
 			  <li class="list-group-item">작업 기간: 2018.04.16 ~ </li>
-			  <li class="list-group-item">개발 도구: Eclipse, Android Studio, MySQL, MyBatis, eXERD Git</li>
+			  <li class="list-group-item">개발 도구: Eclipse, Android Studio, MySQL, MyBatis, eXERD, Git, Firebase</li>
 			  <li class="list-group-item">
 			  	담당 역할: UI 작업, Rest API 작성, JSON 파싱, RecyclerView 작업, 주문내역 확인, 통계 처리, Firebase 연동으로 실시간 알람 등
 			  </li>
