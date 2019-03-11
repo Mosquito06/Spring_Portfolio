@@ -42,6 +42,11 @@ a, a:hover, a:focus {
     margin: 40px 0;
 }
 
+#curent_site:hover{
+	color: #fc913a; 
+	font-weight: bold;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */

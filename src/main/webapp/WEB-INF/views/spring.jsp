@@ -266,13 +266,13 @@ $(function(){
         
         
 		<div class="contentBottom">
-			<img src="${pageContext.request.contextPath}/resources/images/alert/alertIcon2.png"><br>
-		  	<span id="boldText">스프링 프로젝트는 진행 중입니다.</span>
+			<%-- <img src="${pageContext.request.contextPath}/resources/images/alert/alertIcon2.png"><br>
+		  	<span id="boldText">스프링 프로젝트는 진행 중입니다.</span> --%>
 		  	<ul class="list-group" id="exUl">
 			  <li class="list-group-item color">프로젝트 개요</li>
 			  <li class="list-group-item">SPRING 프로젝트(개인 프로젝트)</li>
 			  <li class="list-group-item">프로젝트 명: EasyBuy</li>
-			  <li class="list-group-item">작업 기간: 2018.04.01 ~ </li>
+			  <li class="list-group-item">작업 기간: 2018.04.01 ~ 2018.04.13(2주)</li>
 			  <li class="list-group-item">개발 도구: Eclipse, MySQL, MyBatis, eXERD, Spring(version 4.3), Git</li>
 			  <li class="list-group-item">
 			  	담당 역할: DB, Class, Mapper 등의 설계, 회원가입, 로그인(Ajax), 게시판 구현(등록, 수정, 삭제, 페이징 처리), 
@@ -280,14 +280,14 @@ $(function(){
 			  </li>
 			  <li class="list-group-item color">프로젝트 설명</li>
 			  <li class="list-group-item">
-			  	현재 스프링 프로젝트를 진행 중입니다. 진행 중인 프로젝트는 Git 및 아래 주소를 통해 확인하실 수 있습니다.
-		  		농수산물 판매자와 구매자가 직거래를 할 수 있는 사이트를 구축 중이며, 반응형으로 제작 중입니다.
+			  	본 프로젝트는 Git 주소를 통해 확인하실 수 있습니다.
+		  		농수산물 판매자와 구매자가 직거래를 할 수 있는 사이트를 구축 하였으며, 반응형으로 개발하였습니다(해당 프로젝트로 발표하는 영상을 포트폴리오에 첨부하였습니다).
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
 			  <li class="list-group-item">
 			  	<ul class="list-group" id="rinkUl">
 			  		<li class="list-group-item">
-			  			<a href="http://skykim10908.cafe24.com/SA_Project" target="blank">EasyBuy</a>
+			  			<a href="http://skykim10908.cafe24.com/SA_Project" target="blank">EasyBuy(링크만료)</a>
 			  		</li>
 			  		<li class="list-group-item">
 			  			<a href="https://github.com/Mosquito06/SA_Project" target="blank">Github</a>

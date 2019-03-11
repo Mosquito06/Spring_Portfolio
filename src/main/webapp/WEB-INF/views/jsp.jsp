@@ -277,7 +277,7 @@ $(function(){
 			  <li class="list-group-item">
 			  	<ul class="list-group" id="rinkUl">
 			  		<li class="list-group-item">
-			  			<a href="http://skykim10908.cafe24.com/Project_JSP/" target="blank">SHILLA HOTEL DAEGU</a>
+			  			<a href="http://skykim10908.cafe24.com/Project_JSP/" target="blank">SHILLA HOTEL DAEGU(링크만료)</a>
 			  		</li>
 			  		<li class="list-group-item">
 			  			<a href="https://github.com/Mosquito06/Project_JSP.git" target="blank">Github</a>

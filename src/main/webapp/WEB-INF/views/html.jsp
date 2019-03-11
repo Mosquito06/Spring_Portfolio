@@ -222,7 +222,7 @@ $(function(){
 			  </li>
 			  <li class="list-group-item color">관련 링크</li>
 			  <li class="list-group-item">
-			  	<a href="http://skykim10908.dothome.co.kr/Travel.html" target="blank">HTML & CSS</a><br>
+			  	<a href="http://skykim10908.dothome.co.kr/Travel.html" target="blank">HTML & CSS(링크만료)</a><br>
 			  </li>
 			  <li class="list-group-item color">주의 사항</li>
 			  <li class="list-group-item">
